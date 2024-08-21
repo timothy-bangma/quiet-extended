@@ -7,7 +7,11 @@
 -- " License:      Vim License (see `:help license`)`
 -- " Last Change:  2024 Aug 05
 
-vim.cmd.colorscheme("quiet")
+vim.cmd([[
+	hi clear
+	syntax reset
+	colo quiet
+]])
 
 local function hi(groups, format)
 	for _, group in pairs(groups) do vim.api.nvim_set_hl(0, group, format) end
