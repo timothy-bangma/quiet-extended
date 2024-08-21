@@ -9,7 +9,7 @@
 
 hi clear
 syntax reset
-colo quiet
+source $VIMRUNTIME/colors/quiet.vim
 
 hi NormalFloat guibg=None
 hi @keyword gui=bold
