@@ -11,17 +11,18 @@ hi clear
 syntax reset
 source $VIMRUNTIME/colors/quiet.vim
 
-hi NormalFloat					guibg=None			ctermbg=None
-hi @keyword							gui=bold				ctermfg=white
-hi @keyword.function		gui=bold				ctermfg=white
-hi @keyword.conditional gui=bold				ctermfg=white
+hi NormalFloat					guibg=None													ctermbg=None
 
-hi @lsp.type.struct			guifg=#a2a2a2		ctermfg=grey
-hi @lsp.type.parameter	guifg=#a2a2a2		ctermfg=grey
-hi @lsp.type.type				guifg=#a2a2a2		ctermfg=grey
-hi @lsp.type.namespace	guifg=#a2a2a2		ctermfg=grey
-hi @lsp.type.string			guifg=#a2a2a2		ctermfg=grey
-hi @string							guifg=#a2a2a2		ctermfg=grey
+hi @keyword														gui=bold	cterm=bold	ctermfg=white
+hi @keyword.function									gui=bold	cterm=bold	ctermfg=white
+hi @keyword.conditional 							gui=bold	cterm=bold	ctermfg=white
 
-hi Comment							guifg=#3c3c3c		ctermfg=darkgrey	gui=bold
-hi @lsp.type.comment		guifg=#3c3c3c		ctermfg=darkgrey	gui=bold
+hi @lsp.type.struct			guifg=#a2a2a2												ctermfg=grey
+hi @lsp.type.parameter	guifg=#a2a2a2												ctermfg=grey
+hi @lsp.type.type				guifg=#a2a2a2												ctermfg=grey
+hi @lsp.type.namespace	guifg=#a2a2a2												ctermfg=grey
+hi @lsp.type.string			guifg=#a2a2a2												ctermfg=grey
+hi @string							guifg=#a2a2a2												ctermfg=grey
+
+hi Comment							guifg=#3c3c3c	gui=bold	cterm=bold	ctermfg=darkgrey	
+hi @lsp.type.comment		guifg=#3c3c3c	gui=bold	cterm=bold	ctermfg=darkgrey
